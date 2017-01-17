@@ -26,18 +26,26 @@ body, html {
 }
 
 #number_row{
-  height:40px;
+  height:70px;
   width:400px;
   margin-bottom: 20px;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
   text-align: right;
-  background-color: #CCCCCC;
+  background-color: #DDDDDD;
   border-radius: 10px;
 }
 
-#number_row > p{
-  padding:10px 10px 5px 10px;
+#screen_text{
+  padding:10px 10px 5px 0px;
+  font-size:25px;
+  margin:0px;
+}
+
+#state{
+  padding: 0px 10px 20px 0px;
+  font-size:20px;
+  margin:0px;
+  color: #8b8f96;
 }
 
 button{
